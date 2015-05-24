@@ -8,6 +8,4 @@
     <string name="current_file_label">current file : </string>
     <string name="title_activity_web_browser">WebBrowserActivity</string>
 
-    <string name="hello_world">Hello world!</string>
-
 </resources>

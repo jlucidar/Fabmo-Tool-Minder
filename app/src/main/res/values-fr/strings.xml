@@ -6,5 +6,6 @@
     <string name="scan_button">Rescanner</string>
     <string name="network">réseau :</string>
     <string name="current_file_label">fichier en cours : </string>
+    <string name="title_activity_web_browser">WebBrowserActivity</string>
 
 </resources>
