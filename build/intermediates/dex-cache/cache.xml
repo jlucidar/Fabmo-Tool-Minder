@@ -8,12 +8,5 @@
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="/home/jimmy/Android/workspace/Fabmo-Tool-Minder/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c84f8cb9e2b80285231c920dccf5e7e812207f7f.jar" />
     </item>
-    <item
-        jar="/home/jimmy/Android/workspace/Fabmo-Tool-Minder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="/home/jimmy/Android/workspace/Fabmo-Tool-Minder/app/build/intermediates/pre-dexed/debug/classes-900fc676c4afad7b8f477d7072c4b1ccad39a93e.jar" />
-    </item>
 
 </items>

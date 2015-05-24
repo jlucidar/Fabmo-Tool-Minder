@@ -1,12 +1,13 @@
 package com.fabmo.toolminder;
 
-import android.support.v7.app.ActionBarActivity;
+
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.*;
 
-public class WebBrowserActivity extends ActionBarActivity {
+public class WebBrowserActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

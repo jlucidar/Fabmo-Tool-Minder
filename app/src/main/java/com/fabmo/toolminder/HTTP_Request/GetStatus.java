@@ -49,16 +49,26 @@ public class GetStatus extends AsyncTask<URL, Integer, Status>{
 		    int nb_lines = 0;
 		    int line = 0;
 			try {
-				state = jsonStatus.getJSONObject("status").getString("state");
-				posx = jsonStatus.getJSONObject("status").getDouble("posx");
-				posy = jsonStatus.getJSONObject("status").getDouble("posy");
-				posz = jsonStatus.getJSONObject("status").getDouble("posz");
-				current_file = jsonStatus.getJSONObject("status").getString("current_file");
-				nb_lines = jsonStatus.getJSONObject("status").getInt("nb_lines");
-				line = jsonStatus.getJSONObject("status").getInt("line");
-			} catch (JSONException e) {
-				
-			}
+                state = jsonStatus.getJSONObject("data").getJSONObject("status").getString("state");
+			} catch (JSONException e) {}
+			try {
+				posx = jsonStatus.getJSONObject("data").getJSONObject("status").getDouble("posx");
+			} catch (JSONException e) {}
+			try {
+				posy = jsonStatus.getJSONObject("data").getJSONObject("status").getDouble("posy");
+			} catch (JSONException e) {}
+			try {
+				posz = jsonStatus.getJSONObject("data").getJSONObject("status").getDouble("posz");
+			} catch (JSONException e) {}
+			try {
+				current_file = jsonStatus.getJSONObject("data").getJSONObject("status").getString("current_file");
+			} catch (JSONException e) {}
+			try {
+				nb_lines = jsonStatus.getJSONObject("data").getJSONObject("status").getInt("nb_lines");
+			} catch (JSONException e) {}
+			try {
+				line = jsonStatus.getJSONObject("data").getJSONObject("status").getInt("line");
+			} catch (JSONException e) {}
 			if(current_file != null && current_file.compareTo("null")!=0)
 				return_status = new com.fabmo.toolminder.Status(state, posx, posy, posz, current_file, nb_lines, line);
 			else

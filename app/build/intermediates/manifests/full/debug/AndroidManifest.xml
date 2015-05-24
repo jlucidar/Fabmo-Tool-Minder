@@ -14,23 +14,22 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-
-    <android:uses-permission
+    <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.fabmo.toolminder.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,7 +38,8 @@
         </activity>
         <activity
             android:name="com.fabmo.toolminder.WebBrowserActivity"
-            android:label="@string/title_activity_web_browser" >
+            android:label="@string/title_activity_web_browser"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
         </activity>
     </application>
 
