@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.fabmo.supervisor.MainActivity" >
+    tools:context="com.fabmo.toolminder.MainActivity" >
 
     <ListView
         android:id="@+id/listDevices"
@@ -26,4 +26,4 @@
         android:layout_alignParentRight="true"
         android:text="@string/scan_button" />
 
-</RelativeLayout><!-- From: file:/C:/Users/jimmy/AndroidStudioProjects/FabMo-Supervisor-Android1/app/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/home/jimmy/Android/workspace/Fabmo-Tool-Minder/app/src/main/res/layout/activity_main.xml -->

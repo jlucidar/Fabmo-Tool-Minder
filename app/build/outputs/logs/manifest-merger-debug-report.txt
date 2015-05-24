@@ -75,7 +75,7 @@ MERGED from com.android.support:appcompat-v7:19.1.0:19:5
 		ADDED from AndroidManifest.xml:28:9
 	android:theme
 		ADDED from AndroidManifest.xml:30:9
-activity#com.fabmo.supervisor.MainActivity
+activity#com.fabmo.toolminder.MainActivity
 ADDED from AndroidManifest.xml:31:9
 	android:label
 		ADDED from AndroidManifest.xml:33:13
@@ -91,7 +91,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:37:17
 	android:name
 		ADDED from AndroidManifest.xml:37:27
-activity#com.fabmo.supervisor.WebBrowserActivity
+activity#com.fabmo.toolminder.WebBrowserActivity
 ADDED from AndroidManifest.xml:40:9
 	android:label
 		ADDED from AndroidManifest.xml:42:13
